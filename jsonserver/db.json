@@ -1,0 +1,41 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 2,
+      "title": "json",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "QNA":[
+    {
+      "id":0,
+      "question":"this is the first Test Question",
+      "options":["first","second","third","forth","fifth","As many as u want"]
+    },
+    {
+      "id":1,
+      "question":"this is the second Test Question",
+      "options":["first","second","fifth","As many as u want"]
+    },
+    {
+      "id":2,
+      "question":"this is the third Test Question",
+      "options":["first","second","third","forth","fifth","As many as u want"]
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
